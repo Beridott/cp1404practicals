@@ -19,4 +19,6 @@ def main():
     max_length = max(len(word) for word in unique_words) if unique_words else 0
 
     for word in unique_words:
-        print(f"{word:{max_length}}")
+        print(f"{word:{max_length}}: {word_to_count[word]}")
+
+main()
