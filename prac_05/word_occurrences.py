@@ -2,7 +2,7 @@
 CP1404/CP5632 Practical 05
 Word Occurrences Counter
 Estimate: 25 minutes
-Actual:
+Actual: 16
 """
 
 def main():
