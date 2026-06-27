@@ -2,7 +2,7 @@
 CP1404 Practical 05
 Hexadecimal colour lookup program
 Estimate: 15 mins
-Actual:   16 mins
+Actual:   17 mins
 """
 
 COLOR_TO_CODE = {
