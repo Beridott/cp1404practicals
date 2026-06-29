@@ -12,7 +12,7 @@ def main():
 def load_data(filename):
     records = []
 
-    with open(filename, "r") as in_file:
+    with open(filename, "r", encoding="utf-8-sig") as in_file:
 
         in_file.readline()
         for line in in_file:
@@ -20,3 +20,5 @@ def load_data(filename):
             records.append(parts)
 
     return records
+
+def process_records
