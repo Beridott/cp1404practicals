@@ -10,6 +10,10 @@ def main():
     """process champions and countries, and display results."""
     records = load_data(FILENAME)
 
+    champion_to_count, countries = process_records(records)
+
+    display_results(champion_to_count, countries)
+
 def load_data(filename):
     """Read data from file into a list of lists, handling with UTF-8"""
     records = []
