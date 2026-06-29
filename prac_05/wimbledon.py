@@ -21,4 +21,20 @@ def load_data(filename):
 
     return records
 
-def process_records
+def process_records(records):
+    champion_to_count = {}
+
+    countries = set()
+
+    for record in records:
+
+        country = record[1]
+        champion = record[2]
+
+        countries.add(country)
+
+        champion_to_count[champion] = champion_to_count.get(champion, 0) + 1
+
+    return champion_to_count, countries
+
+
