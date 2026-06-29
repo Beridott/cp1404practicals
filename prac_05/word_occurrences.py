@@ -6,6 +6,7 @@ Actual: 16
 """
 
 def main():
+    """Count and display word occurrences from user input string, sorted and aligned."""
     text = input("Text: ")
 
     words = text.split()

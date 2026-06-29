@@ -19,6 +19,7 @@ COLOR_TO_CODE = {
 }
 
 def main():
+    """Look up hexadecimal colour codes based on user input, case-insensitively."""
     color_name = input("Enter colour name: ").strip().upper()
 
     while color_name != "":
