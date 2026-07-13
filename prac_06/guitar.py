@@ -1,5 +1,5 @@
 """
-CP1404 Practical 06 - Guitars
+CP1404 Practical 06 - Guitar
 Estimate: 30 minutes
 Actual: 25 minutes
 """
