@@ -10,3 +10,18 @@ def main():
     guitars = []
 
     print("My guitars!")
+
+    # guitars.append(Guitar("Gibson L-5 CES", 1922, 16035.40))
+    # guitars.append(Guitar("Line 6 JTV-59", 2010, 1512.9))
+    # guitars.append(Guitar("Fender Stratocaster", 2014, 765.40))
+
+    name = input("Name: ")
+    while name != "":
+        try:
+            year = int(input("Year: "))
+            cost = float(input("Cost: $"))
+
+            new_guitar = Guitar(name, year, cost)
+            guitars. append(new_guitar)
+            print(f"{new_guitar} added.\n")
+        except ValueError:
