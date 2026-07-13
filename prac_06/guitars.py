@@ -25,3 +25,6 @@ def main():
             guitars. append(new_guitar)
             print(f"{new_guitar} added.\n")
         except ValueError:
+            print("Invalide input. Please enter valid number for year and cost.")
+
+        name = input("Name: ")
