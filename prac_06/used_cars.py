@@ -1,1 +1,0 @@
-limo = Car("Limo", 100)
