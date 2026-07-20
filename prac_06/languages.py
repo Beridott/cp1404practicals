@@ -19,7 +19,7 @@ def main():
     print("\nThe dynamically typed languages are")
     for language in languages:
         if language.is_dynamic():
-            print(;anguage.name)
+            print(language.name)
 
 if __name__ == '__main__':
     main()
